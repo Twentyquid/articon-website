@@ -1,0 +1,112 @@
+@import "../variables/Variables.scss";
+
+.content-1 {
+    height: 55vh;
+    width: 100%;
+    color: $beigeColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.3mm;
+
+    .aids-bar {
+        height: 10.7vh;
+        width: 6px;
+        background-color: $redColor;
+        margin-right: 7px;
+    }
+
+    .aids {
+        margin-right: 10vw;
+    }
+}
+
+.content-2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color :$whiteColor;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+    .about-text {
+        margin-right: 10vw;
+    }
+}
+
+.content-3 {
+    height: 88vh;
+    width: 100%;
+    display: flex;
+
+    .events{    
+        height: 40vh;
+        width: 100%;
+        // background-color: gray;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        display: flex;
+        justify-content: center;
+
+        .grid-container {
+            height: 100%;
+            columns: 100%;
+            display: inline-grid;
+            grid-template-columns: 30vw 30vw 30vw;
+            column-gap: 2vw;
+
+            .grid-item {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                font-size: large;
+                color: $whiteColor;
+                width: 100%;
+                height: 100%;
+                background-color : $blackColor;
+            }
+        }
+    }
+}
+
+.footer {
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $whiteColor;
+    font-family: Offbit-DotBold;
+
+    .articon {
+        padding-left: 3vw;
+        padding-right: 1vw;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18vw;
+        font-weight: 900;
+        letter-spacing: 3vw;
+
+        a{
+            margin: 0;
+        }
+
+        .a {
+            color: $redColor;
+        }
+
+        .i {
+            color: $redColor;
+        }
+    }
+
+}

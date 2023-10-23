@@ -1,69 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@font-face {
+  font-family: Offbit-101;
+  src: local("OffbitTrial-101"),
+    url("./fonts/OffbitTrial-101.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Offbit-101Bold;
+  src: local("OffbitTrial-101Bold"),
+    url("./fonts/OffbitTrial-101Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Offbit-Bold;
+  src: local("OffbitTrial-Bold"),
+    url("./fonts/OffbitTrial-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Offbit-Dot;
+  src: local("OffbitTrial-Dot"),
+    url("./fonts/OffbitTrial-Dot.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Offbit-DotBold;
+  src: local("OffbitTrial-DotBold"),
+    url("./fonts/OffbitTrial-DotBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Offbit-Regular;
+  src: local("OffbitTrial-Regular"),
+    url("./fonts/OffbitTrial-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: PressStart2P;
+  src: local("PressStart2P"),
+    url("./fonts/PressStart2P-Regular.ttf") format("truetype");
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  background-color: #121212;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }

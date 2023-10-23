@@ -1,0 +1,44 @@
+@import "../variables/Variables.scss";
+
+
+.navbar {
+    height: 12vh;
+    width: 100%;
+    background-color: $backgroundColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color : $whiteColor;
+}
+
+.navbar {
+    .nav-left {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 4vh;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-left: 50px;
+    }
+    .nav-center {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav-right{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        max-width: 15%;
+        margin-right: 50px;
+        align-items: center;
+        
+    }
+}
