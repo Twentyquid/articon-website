@@ -1,18 +1,20 @@
 @import "../variables/Variables.scss";
 
 
-.navbar {
-    height: 12vh;
-    width: 100%;
+.navbar-content-1 {
+    height: 80%;
+    width: 60vw;
     background-color: $backgroundColor;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     color : $blackColor;
+    font-size: 20px;
+   
 }
 
-.navbar {
+.navbar-content-1 {
     .nav-left {
         height: 100%;
         width: 100%;
@@ -41,4 +43,35 @@
         align-items: center;
         
     }
+}
+
+.navbar-content-3 {
+    width: 100%;
+    height: 12vh;
+    background-color: $pastEventsColor;
+    display: flex;
+    align-items: center;
+
+    .nav-left {
+        font-weight: 900;
+        font-size: 40px;
+        margin-left: 2.5vw;
+        text-decoration: underline;
+    }
+}
+
+.navbar-content-4 {
+    width: 100%;
+    height: 12vh;
+    background-color: $teamColor;
+    display: flex;
+    align-items: center;
+
+    .nav-left {
+        font-weight: 900;
+        font-size: 40px;
+        margin-left: 2.5vw;
+        text-decoration: underline;
+    }
+
 }
