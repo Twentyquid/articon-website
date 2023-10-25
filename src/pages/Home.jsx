@@ -1,5 +1,5 @@
 import Navbar, { EventsNavbar } from "../components/Navbar";
-import "../styles/Home.css";
+import "../styles/Home.scss";
 
 function Home() {
   return (
@@ -26,7 +26,7 @@ function Home() {
           <a>N</a>
         </ul>
       </div>
-      #endregion
+      {/* #endregion */}
       <div className="content-2">
         <div className="about-text">
           Esse labore eiusmod voluptate minim elit dolor nulla ullamco. Ex eu
@@ -44,7 +44,7 @@ function Home() {
           mollit.
         </div>
       </div>
-      #endregion
+      {/* #endregion */}
       <EventsNavbar />
       <div className="content-3">
         <div className="events">

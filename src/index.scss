@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import "variables/Variables.scss";
 
 @font-face {
   font-family: Offbit-101;
@@ -42,8 +43,14 @@
     url("./fonts/PressStart2P-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: CommutersSans-Heavy;
+  src: local("CommutersSans-Heavy"),
+    url("./fonts/CommutersSans-Heavy.ttf") format("truetype");
+}
+
 :root {
-  background-color: #121212;
+  background-color: $backgroundColor;
 }
 
 body {
